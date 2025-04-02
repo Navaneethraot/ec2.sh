@@ -2,9 +2,9 @@
 
 # Set variables
 INSTANCE_TYPE="t2.micro"
-AMI_ID="ami-12345678"  # Replace with a valid AMI ID
-KEY_NAME="my-key-pair"  # Replace with your key pair name
-SECURITY_GROUP="sg-12345678"  # Replace with your security group
+AMI_ID="ami-00a929b66ed6e0de6"
+KEY_NAME="test"  
+SECURITY_GROUP="sg-0e7071125a50388dd" 
 
 echo "Launching EC2 instance..."
 INSTANCE_ID=$(aws ec2 run-instances --image-id $AMI_ID --count 1 --instance-type $INSTANCE_TYPE \
