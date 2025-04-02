@@ -4,8 +4,9 @@
 INSTANCE_TYPE="t2.micro"
 AMI_ID="ami-00a929b66ed6e0de6"
 KEY_NAME="test"  
-SECURITY_GROUP="sg-0e7071125a50388dd" 
+SECURITY_GROUP_ID="sg-0e7071125a50388dd" 
 TAG_NAME="AutoTerminateInstance"
+
 
 #!/bin/bash
 
